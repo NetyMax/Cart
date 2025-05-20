@@ -47,7 +47,7 @@ func main() {
 	cart := NewCart()
 	product1 := Product{ID: 1, Name: "Ноутбук", Price: 59999.99}
 	product2 := Product{ID: 2, Name: "Смартфон", Price: 29999.50}
-	product3 := Product{ID: 3, Name: "Наушники", Price: 3999.90}
+	product3 := Product{ID: 3, Name: "Микрофон", Price: 3999.90}
 
 	cart.Add(product1)
 	cart.Add(product2)
