@@ -54,6 +54,6 @@ func main() {
 	cart.Add(product3)
 
 	cart.Show()
-	cart.Remove(2)
+	cart.Remove(3)
 	cart.Show()
 }
